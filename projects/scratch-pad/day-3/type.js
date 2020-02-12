@@ -96,20 +96,26 @@ function isCollection(value) {
  * O: type of the value as a string
  * C/E: none
  * 
- * we can use the typeof method to determine many of these value types. But first we will use the Object.prototype.toString.call(value) method will determine
- * if value is a type that typeof will misidentify. we can simply return typeof, while the toString method we must type in what we want to be returned*/
+ * we can use the typeof method to determine many of these value types. But first we will use the Object.prototype.toString.call(value) method to determine
+ * if value is a type that typeof will misidentify, such as objects as collections, null, date, and functions*/
 function typeOf(value) {
     // YOUR CODE BELOW HERE //
+    //checks if value is an array, returns "array" if true
     if (Array.isArray(value) === true) {
         return "array";
+        // if Object.prototype.toString.call(value) equals [object Object], then value is an object intended as a collection, and our function will return "object"
     } else if (Object.prototype.toString.call(value) === "[object Object]") {
         return "object";
+        // if Object.prototype.toString.call(value) equals [object Null], then value is null, and our function will return "null"
     } else if (Object.prototype.toString.call(value) === "[object Null]") {
         return "null";
+        //if Object.prototype.toString.call(value) equals [object Function], then value is a function, and our function will return "function"
     } else if (Object.prototype.toString.call(value) === "[object Function]") {
         return "function";
+        //if Object.prototype.toString.call(value) equals [object Date], then value is a date, and our function will return "date"
     } else if (Object.prototype.toString.call(value) === "[object Date]") {
         return "date";
+        //strings, undefined, number, and boolean data types can be correctly identified with typeof, so we can use typeof for all other cases
     } else {
         return typeof value;
     }
@@ -119,7 +125,6 @@ function typeOf(value) {
     // YOUR CODE ABOVE HERE //
 }
 
-console.log(typeof false);
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if((typeof process !== 'undefined') &&

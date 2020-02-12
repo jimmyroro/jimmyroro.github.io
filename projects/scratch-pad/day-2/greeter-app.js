@@ -33,14 +33,23 @@
  *      the exact case.
  */
 
+/**
+ * I: a number, the hour of the day
+ * O: console.log of a greeting, depending on time of day
+ * C/E:
+ */
 function greeter(hour) {
     // YOUR CODE BELOW HERE //
+    //order of statements is important, and our comparison must be inclusive so we won't have gaps. if the hour is less than or equal to 11, print "Good Morning!"
     if (hour <= 11) {
         console.log("Good Morning!");
-    } else if (hour <= 16 && hour >= 12) {
+        // becuase our if statement checked if hour <= 11, we know it will read this next chain only if hour > 11, so we can simply use hour <= 16 as our condition
+    } else if (hour <= 16) {
         console.log("Good Afternoon!");
-    } else if (hour <= 21 && hour >= 17) {
+        // as before we know that this statement will only be read if hour is greater than 16, so we can use hour <= 21 to console log "Good Evening!"
+    } else if (hour <= 21) {
         console.log("Good Evening!");
+        //if the hour is not <= 21 then we will print "Good Night!". this would also print if we weren't using a number as our argument
     } else {
         console.log("Good Night!");
     }
@@ -60,7 +69,7 @@ function greeter(hour) {
  * var hour = today.getHours();
  */
 
-greeter(11);
+greeter("string");
 
 
 
