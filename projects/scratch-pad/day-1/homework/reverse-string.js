@@ -34,8 +34,11 @@ function reverseString(input) {
     
     // YOUR CODE GOES ABOVE HERE //
 }
-
-
+function Hat() {
+var brand = "shhhh";
+}
+var myHat = new Hat();
+console.log(myHat.brand);
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if (
