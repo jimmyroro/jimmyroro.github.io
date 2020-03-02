@@ -258,7 +258,7 @@ _.unique = function(array) {
 *   2) A function
 * Objectives:
 *   1) call <function> for each element in <array> passing the arguments:
-*      the element, it's index, <array>
+*      the element, its index, <array>
 *   2) return a new array of elements for which calling <function> returned true
 * Edge Cases:
 *   1) What if <function> returns something other than true or false?
@@ -390,21 +390,15 @@ _.map = function (collection,fun) {
 */
 
 _.pluck = function (array,property) {
-   /*
     let pluckedArray = [];
-    for (let x = 0; x < array.length; x++) {
-        if (array[x][property] !== undefined) {
-            pluckedArray.push(array[x][property]);
-        }
-    }
+    //we will iterate through the array and access each element's property and push it into our new array
+    _.map(array, function (element,index,array) {
+       if (element[property] !== undefined) {
+          pluckedArray.push(element[property]);
+       } 
+    });
     return pluckedArray;
-    */
-    
-    for (let x = 0; x < array.length; x++) {
-        for( let key in array[x]) {
-            return array.map(i => i[key]); 
-        }
-    }
+
 };
 
 
