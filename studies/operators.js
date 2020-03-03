@@ -13,20 +13,20 @@
   */
   
  let x = 200;
- x += 50;
- x -= 50;
- x *= 2;
- x /= 50; 
+ x += 50; //x = 250
+ x -= 50;  //x = 200
+ x *= 2;  //x = 400
+ x /= 50; //x = 8
   
 /**
  * ARITHMETIC OPERATORS
  * 1. Perform basic arithmetic operations
  */
-x + 20;
-748 - 12;
-200 * 8;
-8 / 4;
-13 % 4;  //this is modulo, it will divide left operand by right operand and return the remainder
+5 + 20;   //add left and right operands: 25
+748 - 12;  //subtract right operand from left: 736
+200 * 8;  //multiply left and right operands: 1600
+8 / 4;  //divide left operand by right operand: 2
+13 % 4;  //this is modulo, it will divide left operand by right operand and return the remainder: 1
  
 /** 
  * COMPARISON OPERATORS

@@ -36,7 +36,9 @@
  * SWITCH STATEMENTS
  * 1. Switch statements takes in an input, matches it to a case clause that you create, and executes
  * the code associated with that case. Break statements must be added between each case. Similar to
- * an else statement, swtich statements use default to execute code that doesn't match any cases
+ * an else statement, swtich statements use default to execute code that doesn't match any cases. 
+ * Switch statments can be useful in making cleaner, neater code. They are also good when you have
+ * many cases that all run the same block of code.
  */
  
  var animal = "unicorn";
@@ -48,7 +50,7 @@
          console.log("It's a dog.");
          break;
      case "rabbit":
-     case "gerbil":     //you can set multiple cases to the same code to execute
+     case "gerbil":     //you can set multiple cases to the same code to execute. consider how arduous these three would be using if statements
      case "hamster":
          console.log("It's some sort of rodent");
          break;

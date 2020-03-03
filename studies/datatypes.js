@@ -40,20 +40,22 @@ console.log(a[2]);  // this will print null, because the reference has been alte
  */
 let five = 5;
 let remainder = 5 % 3;
-console.log(remainder);
+console.log(remainder); // prints 2
 
 /**
  * Infinity and -Infinity
  * 1. Special numeric values. Infinity is greater than any number, -Infinity is less than any number
  */
 
-console.log(Infinity > 19e8);
-console.log(-Infinity < 12e12);
+console.log(Infinity > 19e8); // prints true
+console.log(-Infinity < -12e12); // prints true
 
 /**
  * NaN
- * 1. Special numberic value. It is a result of incorrect or undefined mathematicla operations
+ * 1. Special numberic value. It is a result of incorrect or undefined mathematical operations. It is unequal
+ * all other values, including itself. Having NaN in any math operation will result in NaN 
  */
+ console.log(Math.sqrt(-1)); // prints NaN
 
 /**
  * STRING
@@ -78,7 +80,7 @@ console.log(myString === "an amazing example"); // prints true
  * 2. simple
  */
 let undefinedVariable;
-console.log(undefinedVariable);
+console.log(undefinedVariable); //prints undefined
 
 /**
  * NULL
@@ -86,6 +88,8 @@ console.log(undefinedVariable);
  * left the value empty
  * 2. simple
  */
+ let doesNotExist = null;
+ console.log(doesNotExist); //prints null
  
 /**
  * OBJECT
@@ -101,7 +105,7 @@ let pickle = {
 };
 console.log(pickle.seeds);  // prints false
 pickle.taste = "sour";   //adds a new key/value pair
-console.log(pickle);
+console.log(pickle); // prints { seeds: false, color: 'green', number: 6, taste: 'sour' }
  
 /**
  * ARRAY
@@ -110,8 +114,8 @@ console.log(pickle);
  * 3. complex
  */
 let newArray = [null, 6, "Twilight"];
-console.log(newArray[2]);  //prints twilight
-console.log(newArray[newArray.length-1]);  //will access the last element of an array
+console.log(newArray[1]);  //print 6
+console.log(newArray[newArray.length-1]);  //will access the last element of an array; princts Twilight
  
 /**
  * FUNCTION

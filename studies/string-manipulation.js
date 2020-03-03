@@ -1,6 +1,7 @@
 /**
  * STRING MANIPULATION METHODS
  * 1. All string methods return a new string. They don't modify the original string.
+ * 
  * 2. .slice() removes a part of a string and returns it in a new string. takes two 
  * parameters: start position and end postion, end not included
  */
@@ -24,17 +25,13 @@
  console.log(counting.indexOf("5",6));
  // .lastIndexOf() will search the string backwards and return the first instance
  
- // 6. .length will return the length of a string or array
- var countingLength = counting.length;
- var lastPosition = counting.length-1; // .length -1 will always refer to the last index
- 
- //7. .split() converts a string to an array. you can split on commas (",") or spaces (" ")
+ //6. .split() converts a string to an array. you can split on commas (",") or spaces (" ")
  var letters = "a,b,c,d,e,f";
  console.log(letters.split()); // returns entire string in position 0
  console.log(letters.split(",")); // returns array with a split where each comma was
  console.log(letters.split("")); // returns an array with each character split
  
- //8. .toUpperCase() and .toLowerCase() convert the entire string to upper- or lower- case
+ //7. .toUpperCase() and .toLowerCase() convert the entire string to upper- or lower- case
  console.log(letters.toUpperCase());
  console.log(letters.toLowerCase());
  
