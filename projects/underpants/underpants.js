@@ -586,6 +586,22 @@ _.extend = function (object1,object2,...moreObjects) {
     return object1;
 };
 
+
+const mapObject = (object, callback) => {
+ let mappedObject = object.map(function(key, value, object){
+   return callback(object);
+ });
+  return mappedObject;
+};
+
+const james = {
+  firstName: 'James',
+  lastName: 'Hu',
+  gender: 'Male',
+  biography: 'Oh hey, I\'m just a guy',
+};
+console.log(mapObject(james, (key, value) => value.toUpperCase()));
+
 //////////////////////////////////////////////////////////////////////
 // DON'T REMOVE THIS CODE ////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
