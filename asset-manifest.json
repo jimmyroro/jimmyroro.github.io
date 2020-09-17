@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jimmyroro.github.io/static/css/main.ad0daef9.chunk.css",
+    "main.js": "/jimmyroro.github.io/static/js/main.9b8728c7.chunk.js",
+    "main.js.map": "/jimmyroro.github.io/static/js/main.9b8728c7.chunk.js.map",
+    "runtime-main.js": "/jimmyroro.github.io/static/js/runtime-main.41fbf457.js",
+    "runtime-main.js.map": "/jimmyroro.github.io/static/js/runtime-main.41fbf457.js.map",
+    "static/js/2.03513662.chunk.js": "/jimmyroro.github.io/static/js/2.03513662.chunk.js",
+    "static/js/2.03513662.chunk.js.map": "/jimmyroro.github.io/static/js/2.03513662.chunk.js.map",
+    "index.html": "/jimmyroro.github.io/index.html",
+    "precache-manifest.2b6b98a30434d342648167d132795ca8.js": "/jimmyroro.github.io/precache-manifest.2b6b98a30434d342648167d132795ca8.js",
+    "service-worker.js": "/jimmyroro.github.io/service-worker.js",
+    "static/css/main.ad0daef9.chunk.css.map": "/jimmyroro.github.io/static/css/main.ad0daef9.chunk.css.map",
+    "static/js/2.03513662.chunk.js.LICENSE.txt": "/jimmyroro.github.io/static/js/2.03513662.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/jimmyroro.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41fbf457.js",
+    "static/js/2.03513662.chunk.js",
+    "static/css/main.ad0daef9.chunk.css",
+    "static/js/main.9b8728c7.chunk.js"
+  ]
+}
