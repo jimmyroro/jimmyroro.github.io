@@ -1,28 +1,13 @@
 import React from 'react';
-import profile from './profile.jpg';
 import Navbar from './Navbar';
-import './App.css';
+import Home from './Home';
+import '../App.css';
 
 
 function App() {
   return (
     <div className="App" >
       <Navbar/>
-      <div class="container" id="bio-body">
-        <div class="row">
-          <div class="col-sm">
-            <img src={profile} alt="me"></img>
-          </div>
-          <div class="col-sm">
-            <div class="row">
-              I'm a software developer looking for my next project. I've worked front end and backend, and am always up to learn new things. Check out my latest projects below, and don't hesitate to reach out to me!
-            </div>
-            <div class="row">
-              <a href="./projects">link to projects? pictures of them or something?</a>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
