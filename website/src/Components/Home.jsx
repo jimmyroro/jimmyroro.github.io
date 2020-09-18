@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../profile.jpg';
+import profile from '../pictures/profile.jpg';
 import {Link} from 'react-router-dom';
 
 const Home = () => {
