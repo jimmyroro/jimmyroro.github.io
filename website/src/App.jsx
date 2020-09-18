@@ -1,38 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import profile from './profile.jpg';
+import Navbar from './Navbar';
 import './App.css';
 
 
 function App() {
   return (
     <div className="App" >
-      <div class="container-fluid" id="navbar">
-        <div class="row">
-          <div class="col-sm">
-            Bio
-          </div>
-          <div class="col-6" id="projects-header">
-            Projects
-          </div>
-          <div class="col-sm">
-            LinkedIn
-          </div>
-          <div class="col-sm">
-            Contact
-          </div>
-        </div>
-      </div>
+      <Navbar/>
       <div class="container" id="bio-body">
         <div class="row">
           <div class="col-sm">
-            picture of me!
+            <img src={profile} alt="me"></img>
           </div>
           <div class="col-sm">
             <div class="row">
-              bio
+              I'm a software developer looking for my next project. I've worked front end and backend, and am always up to learn new things. Check out my latest projects below, and don't hesitate to reach out to me!
             </div>
             <div class="row">
-              link to projects?
+              <a href="./projects">link to projects? pictures of them or something?</a>
             </div>
           </div>
         </div>
