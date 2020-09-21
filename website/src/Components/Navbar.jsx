@@ -5,6 +5,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import Contact from './Contact';
 import Home from './Home';
 import Projects from './Projects'
 
@@ -33,6 +34,9 @@ const Navbar = () => {
           </Route>
           <Route exact path="/projects">
             <Projects />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
           </Route>
         </Switch>
     </Router>
