@@ -1,17 +1,14 @@
-#navbar {
-  background-color: blue;
-}
 
-#projects-header {
-  text-align: center;
+body {
+  font-size: 100%;
 }
 
 a:link {
-  color: red;
+  color: #FB6542;
 }
 
 a:visited {
-  color: pink;
+  color: #FB6542;
   background-color: transparent;
   text-decoration: none;
 }
@@ -37,9 +34,7 @@ input {
   transition: .3s border-color;
 }
 
-input:hover {
-  border: 1px solid #aaa;
-}
+
 
 input[type=text] {
   width:100%;
@@ -48,17 +43,18 @@ input[type=text] {
   border-radius:15px;
   box-shadow:4px 4px 10px rgba(0,0,0,0.06);
   height:150px;
+  vertical-align: top;
 }
 
 button {
   /* remove default behavior */
   appearance:none;
   -webkit-appearance:none;
-
+  
   /* usual styles */
   padding:10px;
   border:none;
-  background-color:#3F51B5;
+  background-color:#A43820;
   color:#fff;
   font-weight:600;
   border-radius:5px;
@@ -67,10 +63,27 @@ button {
   margin-bottom: 10px;
   margin-left: 25%;
 }
+/* remove dead space at bottom of page */
+#root {
+  background-color: #90AFC5;
+  position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+}
 
+/* navbar */
+#navbar {
+  background-color: #2A3132;
+  padding: 10px;
+  font-size: large;
+}
+
+#projects-header {
+  text-align: center;
+}
+
+/*contact */
 #formContainer {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #90afc5;
   padding: 20px;
 }
 
@@ -79,7 +92,17 @@ button {
   margin-right: 7%;
 }
 
-#root {
-  background-color: #f2f2f2;
-  position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+/* home */
+#selfie {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #A43820;
+  font-size: 1.25em;
+  margin-left: 33%;
+  margin-top: 5%;
+}
+
+#intro {
+  font-size: 1.25em;
+  margin: 10px 5% 0 5%;
 }
