@@ -17,9 +17,6 @@ const Navbar = () => {
             <div class="col-sm">
               <Link to="/">Bio</Link>
             </div>
-            <div class="col-6" id="projects-header">
-              <Link to="/projects">Projects</Link>
-            </div>
             <div class="col-sm">
               <a href="https://www.linkedin.com/in/richard-james-rosier/">LinkedIn</a>
             </div>
@@ -31,9 +28,6 @@ const Navbar = () => {
         <Switch>
           <Route exact path="/">
             <Home />
-          </Route>
-          <Route exact path="/projects">
-            <Projects />
           </Route>
           <Route exact path="/contact">
             <Contact />
