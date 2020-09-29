@@ -21,6 +21,9 @@ const Navbar = () => {
               <a href="https://www.linkedin.com/in/richard-james-rosier/">LinkedIn</a>
             </div>
             <div class="col-sm">
+              <a href="https://github.com/jimmyroro">Github</a>
+            </div>
+            <div class="col-sm">
               <Link to="/contact">Contact</Link>
             </div>
           </div>

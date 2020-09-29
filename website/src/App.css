@@ -72,6 +72,7 @@ button {
   background-color: #283655;
   color: azure;
   border-radius: 10px;
+  text-align: center;
 }
 
 .card-img-top {
@@ -82,9 +83,9 @@ button {
   height: 20%;
 }
 
-.card-text {
+/* .card-text {
   text-align: center;
-}
+} */
 
 .card-text {
   height: 40%;
@@ -120,9 +121,14 @@ button {
   border-radius: 25px;
   border-style: solid;
   border-color: #A43820;
-  font-size: 1.25em;
   /* margin-left: 33%; */
   margin-top: 10%;
+}
+
+.modal-card {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #A43820;
 }
 
 #intro {
