@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.43d9a387.chunk.css",
+    "main.css": "/static/css/main.ff141698.chunk.css",
     "main.js": "/static/js/main.551d97a8.chunk.js",
     "main.js.map": "/static/js/main.551d97a8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3374ac37.js",
@@ -8,9 +8,9 @@
     "static/js/2.3c18111d.chunk.js": "/static/js/2.3c18111d.chunk.js",
     "static/js/2.3c18111d.chunk.js.map": "/static/js/2.3c18111d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f50c80333a078b5cc933863e47e60643.js": "/precache-manifest.f50c80333a078b5cc933863e47e60643.js",
+    "precache-manifest.569db5e9ec2ba8ef55794f30b9434f6e.js": "/precache-manifest.569db5e9ec2ba8ef55794f30b9434f6e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.43d9a387.chunk.css.map": "/static/css/main.43d9a387.chunk.css.map",
+    "static/css/main.ff141698.chunk.css.map": "/static/css/main.ff141698.chunk.css.map",
     "static/js/2.3c18111d.chunk.js.LICENSE.txt": "/static/js/2.3c18111d.chunk.js.LICENSE.txt",
     "static/media/crawlLogo.png": "/static/media/crawlLogo.fe685243.png",
     "static/media/organizeLogo.png": "/static/media/organizeLogo.86400b42.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.3374ac37.js",
     "static/js/2.3c18111d.chunk.js",
-    "static/css/main.43d9a387.chunk.css",
+    "static/css/main.ff141698.chunk.css",
     "static/js/main.551d97a8.chunk.js"
   ]
 }
