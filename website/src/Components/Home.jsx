@@ -7,18 +7,18 @@ import organizeLogo from '../pictures/organizeLogo.png';
 const Home = () => {
   return (
     <div class="container">
-      <div class="row">
-        <div className="col-1/3">
+      <div class="row flex">
+        <div className="col-1/3 flex">
           <img id="selfie" src={profile} alt="me"></img>
         </div>
         <div className="col">
-          <div className="row">
+          <div className="row flex-1">
             <p id="intro">
               I'm a software developer looking for my next project. I've worked front end and backend, and am always up to learn new things. Check out my latest projects, and don't hesitate to reach out to me!
             </p>
           </div>
           <div className="row">
-            <div class="card-group">
+            <div class="card-group flex-1">
               <div class="card">
                 <img class="card-img-top" src={upcloseLogo} alt="Logo for Upclose" />
                 <div class="card-body">
