@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'ArchitectsDaughter';
+  src: local('ArchitectsDaughter'), url(./assets/fonts/architectsDaughterRegular.ttf) format('truetype');
+}
