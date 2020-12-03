@@ -18,6 +18,18 @@ body {
 	}
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 a:link {
   color: #FB6542;
 }
@@ -106,6 +118,10 @@ button {
   width: 100%;
 }
 
+.card-text {
+  height: 40%;
+}
+
 /* navbar */
 #navbar {
   text-align: center;
@@ -133,6 +149,14 @@ button {
   margin-top: 10%;
   object-fit: contain;
   max-height: 250px;
+  height: auto;
+  object-fit: contain;
+}
+
+.modal-card {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #A43820;
 }
 
 #intro {
