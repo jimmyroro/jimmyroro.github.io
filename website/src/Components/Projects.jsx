@@ -1,7 +1,7 @@
 import React from 'react';
-import upcloseLogo from '../pictures/upcloseLogo.svg';
-import crawlLogo from '../pictures/crawlLogo.png';
-import organizeLogo from '../pictures/organizeLogo.png';
+import upcloseLogo from '../assets/upcloseLogo.svg';
+import crawlLogo from '../assets/crawlLogo.png';
+import organizeLogo from '../assets/organizeLogo.png';
 
 const mist = {
   backgroundColor: "#90AFC5",
@@ -22,7 +22,7 @@ const Projects = () => {
         <div class="card-body">
           <h5 class="card-title text-center">Organize power</h5>
           <p class="card-text">card text</p>
-          <a href='https://github.com/Apptonomy/organizepower' target="_blank"><button>Repo</button></a>
+          <a href='https://github.com/Apptonomy/organizepower' rel="noopener noreferrer" target="_blank"><button>Repo</button></a>
         </div>
       </div>
       <div class="card" style={mist}>
@@ -30,7 +30,7 @@ const Projects = () => {
         <div class="card-body">
           <h5 class="card-title text-center">Crawl</h5>
           <p class="card-text">text</p>
-          <a href='https://github.com/Apptonomy/Crawl' target="_blank"><button>Repo</button></a>
+          <a href='https://github.com/Apptonomy/Crawl' rel="noopener noreferrer" target="_blank"><button>Repo</button></a>
         </div>
       </div>
     </div>
